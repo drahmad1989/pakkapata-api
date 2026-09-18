@@ -288,7 +288,7 @@ app.get('/api/health', (_req, res) => {
   res.json({
     status: 'ok',
     service: 'pakkapata',
-    version: '0.10.9',
+    version: '0.10.10',
     h3_resolution: geoService.H3_RESOLUTION,
     timestamp: new Date().toISOString(),
   });

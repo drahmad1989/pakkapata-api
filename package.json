@@ -1,6 +1,6 @@
 {
   "name": "pakkapata",
-  "version": "0.10.9",
+  "version": "0.10.10",
   "description": "Sovereign, self-hosted digital addressing infrastructure for Pakistan. Maps every physical entrance using Uber H3 hexagonal grid with permanent spatial identity (UPRN + short code).",
   "main": "server.js",
   "type": "commonjs",

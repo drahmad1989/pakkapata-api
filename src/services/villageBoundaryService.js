@@ -15,6 +15,7 @@
  */
 
 const db = require('../config/database');
+const geoService = require('./geoService'); // v0.10.10: FIX — near-boundary ReferenceError when pin outside polygon
 const { prepare } = db;
 
 // SQL templates
